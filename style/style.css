@@ -3,5 +3,52 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+@font-face {
+    font-family: "poppins";
+    src: url(/fonts/Poppins-Medium.ttf),
+    url(/fonts/Poppins-Black.ttf),
+    url(/fonts/Poppins-BlackItalic.ttf),
+    url(/fonts/Poppins-Bold.ttf),
+    url(/fonts/Poppins-ExtraBold.ttf),
+    url(/fonts/Poppins-ExtraLight.ttf)
+    url(/fonts/Poppins-Light.ttf);
+}
 
+.container{
+    /* width: 1440px; */
+    padding: 30px 77px 30px 77px;
+    
+}
+
+body{
+    /* width: 1440px; */
+    font-family: "poppins";
+
+}
+
+/* header */
+
+.logo, nav, ul, li ,.icons{
+    display: inline-block;
+}
+
+/* navigation  */
+nav{
+    margin: 0 0 0 266px;
+}
+nav li{
+    margin: 0 75px 0 0;
+}
+.icons{
+    margin: 0 0 0 38px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+   
+}
+.icons a{
+    margin: 0 0 0 45px;
 }
