@@ -12,13 +12,13 @@
 }
 @font-face {
     font-family: "poppins";
-    src: url(/fonts/Poppins-Medium.ttf),
-    url(/fonts/Poppins-Black.ttf),
-    url(/fonts/Poppins-BlackItalic.ttf),
-    url(/fonts/Poppins-Bold.ttf),
-    url(/fonts/Poppins-ExtraBold.ttf),
-    url(/fonts/Poppins-ExtraLight.ttf)
-    url(/fonts/Poppins-Light.ttf);
+    src: url(/LandingPage/fonts/Poppins-Medium.ttf),
+    url(/LandingPage/fonts/Poppins-Black.ttf),
+    url(/LandingPage/fonts/Poppins-BlackItalic.ttf),
+    url(/LandingPage/fonts/Poppins-Bold.ttf),
+    url(/LandingPage/fonts/Poppins-ExtraBold.ttf),
+    url(/LandingPage/fonts/Poppins-ExtraLight.ttf)
+    url(/LandingPage/fonts/Poppins-Light.ttf);
 }
 html{
     
