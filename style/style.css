@@ -3,6 +3,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+   
+}
+:root{
+    --primary-color: #B88E2F;
+    --secondary-color: #000;
+    --grey-color: #898989;
 }
 @font-face {
     font-family: "poppins";
@@ -14,41 +20,134 @@
     url(/fonts/Poppins-ExtraLight.ttf)
     url(/fonts/Poppins-Light.ttf);
 }
+html{
+    
+}
+body{
+    width: 1440px;
+    font-family: "poppins";
+    font-size: 16px;
+    margin: auto;
+}
 
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+/* container  */
 .container{
-    /* width: 1440px; */
+    position: relative;
+    height: 41px;
+}
+
+
+/* header */
+header{
+    z-index: 1;
     padding: 30px 77px 30px 77px;
     
 }
-
-body{
-    /* width: 1440px; */
-    font-family: "poppins";
-
+.logo{
+    height: 41px;
+    
 }
 
-/* header */
-
-.logo, nav, ul, li ,.icons{
+.logo, nav, ul, li ,.icons,a{
     display: inline-block;
 }
 
+
 /* navigation  */
+.vertical-center{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 nav{
     margin: 0 0 0 266px;
+    
 }
 nav li{
     margin: 0 75px 0 0;
 }
-.icons{
+.icons{ 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
     margin: 0 0 0 38px;
-}
+    height: 28px;
 
-a{
-    color: #000000;
-    text-decoration: none;
-   
 }
 .icons a{
     margin: 0 0 0 45px;
+    text-decoration: none;
 }
+
+/* Main section  */
+
+/* hero section  */
+.hero{
+    position: relative;
+}
+
+
+/* hero img  */
+
+.hero-img img{
+    width: 100%;
+    margin: auto;
+    height: 716.83px;
+}
+
+.CTA{
+    position: absolute;
+    width: 643px;
+    height: 443px;
+    top: 150px;
+    right: 58px;
+    background-color: #FFF3E3;
+    padding: 62px 43px 37px 39px;
+
+}
+.CTA P{
+    margin: 0 0 4px ;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 3px;
+    text-align: left;
+
+}
+.CTA h1{
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    color: #B88E2F;
+    margin: 0 0 17px 0;
+}
+
+.CTA h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 0 46px 0;
+
+}
+
+.CTA button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 25px 72px 25px 72px;
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+
+}
+
